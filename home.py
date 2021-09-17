@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home_page():
-    return "Hello !!! \n Welcome to home pagngae"
+    return "Hello !!! \n Welcome to home page"
 
 
 @app.route('/login')
